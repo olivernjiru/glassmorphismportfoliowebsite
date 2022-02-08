@@ -68,8 +68,9 @@ section {
 }
 
 .container {
-    background-color: red;
+    /* background-color: red; */
     padding: 0 40px;
+    width: 100%;
 }
 
 .row {
@@ -82,13 +83,18 @@ section {
 }
 
 /* Home Section */
-.home-text {
+.home-section {
+    display: flex;
+    padding: 120px 0;
+}
+
+/* .home-text {
     background-color: blue;
 }
 
 .home-img{
     background-color: green;
-}
+} */
 
 .home-text,
 .home-img {
@@ -102,6 +108,7 @@ section {
     /* This is what makes the profile picture thing appear rounded */ 
     border-radius: 50%;
     border: 8px solid var(--white-alpha-25);
+    margin: auto;
 }
 
 .home-img .img-box img {
