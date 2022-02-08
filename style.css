@@ -56,3 +56,8 @@ section {
     min-height: 90vh;
     border-radius: 30px;
 }
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
