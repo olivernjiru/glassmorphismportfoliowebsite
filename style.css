@@ -50,6 +50,11 @@ body::before {
     opacity: 0.12;
 }
 
+.img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
 section {
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
@@ -60,4 +65,22 @@ section {
 .main {
     max-width: 1200px;
     margin: auto;
+}
+
+.container {
+    background-color: red;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Home Section */
+.home-text {
+    background-color: blue;
+}
+
+.home-img{
+    background-color: red;
 }
