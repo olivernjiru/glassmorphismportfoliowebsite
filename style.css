@@ -21,6 +21,13 @@
     outline: none;
 }
 
+/* Universal Image styling */
+.img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/* before & after */
 ::before,
 ::after {
     box-sizing: border-box;
@@ -50,11 +57,7 @@ body::before {
     opacity: 0.12;
 }
 
-.img{
-    max-width: 100%;
-    vertical-align: middle;
-}
-
+/* Section */
 section {
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
@@ -62,22 +65,26 @@ section {
     border-radius: 30px;
 }
 
+/* Main Class */
 .main {
     max-width: 1200px;
     margin: auto;
 }
 
+/* Container Class */
 .container {
     /* background-color: red; */
     padding: 0 40px;
     width: 100%;
 }
 
+/* Row Class */
 .row {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* Align Items Center Class */
 .align-items-center {
     align-items: center;
 }
@@ -96,6 +103,7 @@ section {
     background-color: green;
 } */
 
+/* Home Text & Home Image */
 .home-text,
 .home-img {
     width: 50%;
