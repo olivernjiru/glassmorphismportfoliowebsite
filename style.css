@@ -110,6 +110,7 @@ section {
     padding: 15px;
 }
 
+/* Styling Home Image container & the container within it, Image Box */
 .home-img .img-box {
     max-width: 360px;
     background-color: var(--white-alpha-25);
@@ -119,6 +120,7 @@ section {
     margin: auto;
 }
 
+/* Styling Home Image container, the container within it, Image Box and then the Image in it */
 .home-img .img-box img {
     width: 100%;
     /* This is what makes the profile picture thing appear rounded */ 
